@@ -5,6 +5,7 @@ function Header({changeUser}) {
       localStorage.setItem('loggedInuser', '');
       // window.location.reload();
       changeUser('');
+      localStorage.removeItem('loggedInuser');
   }
   return (
   
